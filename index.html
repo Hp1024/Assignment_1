@@ -16,57 +16,51 @@
 	<link rel="stylesheet" href="css/normalize.css"/>
 </head>
 <body>
-	<header class="container_12">						<!--The header contains the logo and nav bar and is fixed-->
-		<div class="grid_12">
-			<logo class="grid_2 alpha"><img src="images/1.jpg"></logo>
-			<div class="grid_10 omega">
-				<ul>
-					<li><a href="">HOME</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
+	<header >						<!--The header contains the logo and nav bar and is fixed-->
+		<div id="logo"><img src="images/1.jpg" alt="logo"></div>
+		<div id="nav">
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">SERVICES</a></li>
+				<li><a href="">CONTACT</a></li>
+				<li><a href="">FAQ</a></li>
+			</ul>
 		</div>
-
 	</header>
 
+	
 	<main id="hero" class="container_12"> 				 <!-- This section contains the hero part-->
 		<div class="grid_12">
 			<h1>A home for your pets</h1> 
-			<figure class="grid_12"><img src="images/6.jpg" alt=""></figure> 
 		</div>
-
-		
+		<figure class="grid_12"><img src="images/6.jpg" alt="A Dog picture"></figure>
 	</main>
 
-	<section id="columns" class="container_16">            <!--This section contains the three columns-->
-		<div class="grid_16">
-			<div id="column1" class="grid_4 prefix_1 ">
-				<div id="image"><img src="images/3.jpg"></div>
-				<div id="content">
-					<h1>Why choose Us.</h1>
-					<h2>Because we are Reliable.</h2>
-					<p>We work with trained professionals who are expertised in dealing with all kinds of aspects regarding your petand also with a continuous feed back about your pet.</p>
-				</div>
+	
+	<section id="columns" class="container_12">            <!--This section contains the three columns-->
+		<div id="column1" class="grid_4 alpha ">
+			<div id="image"><img src="images/3.jpg" alt="Dog"></div>
+			<div id="content">
+				<h1>Why choose Us.</h1>
+				<h2>Because we are Reliable.</h2>
+				<p>We work with trained professionals who are expertised in dealing with all kinds of aspects regarding your petand also with a continuous feed back about your pet.</p>
 			</div>
-			<div id="column2" class="grid_4 prefix_1 ">
-				<div id="image"><img src="images/4.jpg"></div>
-				<div id="content">
-					<h1>Our Mission.</h1>
-					<h2>A home for your pets</h2>
-					<p>Considering todays busy lives, our plain motto is to take care of your pets when you are away and making them feel home.</p>
-				</div>
+		</div>
+		<div id="column2" class="grid_4  ">
+			<div id="image"><img src="images/4.jpg" alt="Dog"></div>
+			<div id="content">
+				<h1>Our Mission.</h1>
+				<h2>A home for your pets</h2>
+				<p>Considering todays busy lives, our plain motto is to take care of your pets when you are away and making them feel home.</p>
 			</div>
-			<div id="column3" class="grid_4 prefix_1  ">
-				<div id="image"><img src="images/5.jpg"></div>
-				<div id="content">
-					<h1>What we Do.</h1>
-					<h2>Train and babysit pets</h2>
-					<p>Whether its a planned holiday or a sudden emergency trip,dont worry about your pets.We can deal with it!</p>	
-
-				</div>
+		</div>
+		<div id="column3" class="grid_4  omega ">
+			<div id="image"><img src="images/5.jpg" alt="Dog"></div>
+			<div id="content">
+				<h1>What we Do.</h1>
+				<h2>Train and babysit pets</h2>
+				<p>Whether its a planned holiday or a sudden emergency trip,dont worry about your pets.We can deal with it!</p>	
 			</div>
 		</div>
 	</section>
@@ -74,7 +68,7 @@
 	<footer class="container_12">                        <!--This is the footer--> 
 		<div id="column1" class="grid_6 alpha">
 			<h1>Social links</h1>
-			<ul type="">
+			<ul>
 				<li><a href="">Facebook</a></li>
 				<li><a href="">Twitter</a></li>
 				<li><a href="">Instagram</a></li>
